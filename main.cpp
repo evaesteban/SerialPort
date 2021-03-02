@@ -2,10 +2,11 @@
 #include "SerialPort.hpp"
 #include <stdio.h>
 #include <string.h>
+#include <signal.h>
 
 using namespace std;
 
-char* portName = "\\\\.\\COM20";
+char* portName = "\\\\.\\COM7";
 
 #define MAX_DATA_LENGTH 255
 
@@ -23,7 +24,12 @@ SerialPort *arduino;
 const unsigned int BLINKING_DELAY = 1000;
 
 //If you want to send data then define "SEND" else comment it out
-#define SEND
+//#define SEND
+
+void signalHandler(int signum){
+    arduino->closeSerial();
+    exit(signum);
+}
 
 void exampleReceiveData(void)
 {
@@ -69,7 +75,10 @@ void autoConnect(void)
 
 int main()
 {
+    signal(SIGINT, signalHandler);
+
     arduino = new SerialPort(portName);
 
-    autoConnect();   
+    autoConnect();
+
 }
