@@ -5,7 +5,7 @@
 #include <signal.h>
 #include <stdint.h>
 #include <windows.h>
-#define FILETIME_TO_UNIX 116444736000000000LL
+#define FILETIME_TO_UNIX 116444736000000000i64
 
 using namespace std;
 
