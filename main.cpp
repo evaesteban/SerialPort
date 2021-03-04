@@ -11,7 +11,7 @@ using namespace std;
 
 char* portName = "\\\\.\\COM18";
 
-#define MAX_DATA_LENGTH 255
+#define MAX_DATA_LENGTH 1
 
 char incomingData[MAX_DATA_LENGTH];
 
