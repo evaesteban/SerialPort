@@ -22,8 +22,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4B939170-C870-3561-9EBD-F23B7F49B66D}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{1A189B86-0F33-37F3-8AD7-A56325164AE8}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>SerialPortExe</ProjectName>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SerialPortExe.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SerialPortExe</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SerialPortExe.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SerialPortExe</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SerialPortExe.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SerialPortExe</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SerialPortExe.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SerialPortExe</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -103,10 +103,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -119,8 +119,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build/Debug/SerialPortExe.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build/Debug/SerialPortExe.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build/Debug/SerialPortExe.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build/Debug/SerialPortExe.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -129,7 +129,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -146,10 +146,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -162,8 +162,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build/Release/SerialPortExe.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build/Release/SerialPortExe.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build/Release/SerialPortExe.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build/Release/SerialPortExe.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -172,7 +172,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -189,10 +189,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -205,8 +205,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build/MinSizeRel/SerialPortExe.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build/MinSizeRel/SerialPortExe.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build/MinSizeRel/SerialPortExe.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build/MinSizeRel/SerialPortExe.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -215,7 +215,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -231,10 +231,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -247,8 +247,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build/RelWithDebInfo/SerialPortExe.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build/RelWithDebInfo/SerialPortExe.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build/RelWithDebInfo/SerialPortExe.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build/RelWithDebInfo/SerialPortExe.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -256,11 +256,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\Python38\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/evatr/OpenBCI/Github/Forks/SerialPort -BC:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build --check-stamp-file C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build/CMakeFiles/generate.stamp
+C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort -BC:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build --check-stamp-file C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -268,12 +268,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeCCompiler.cmake;C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeCCompiler.cmake;C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\Python38\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/evatr/OpenBCI/Github/Forks/SerialPort -BC:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build --check-stamp-file C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build/CMakeFiles/generate.stamp
+C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort -BC:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build --check-stamp-file C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -281,12 +281,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeCCompiler.cmake;C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeCCompiler.cmake;C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\Python38\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/evatr/OpenBCI/Github/Forks/SerialPort -BC:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build --check-stamp-file C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build/CMakeFiles/generate.stamp
+C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort -BC:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build --check-stamp-file C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -294,12 +294,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeCCompiler.cmake;C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeCCompiler.cmake;C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\Python38\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/evatr/OpenBCI/Github/Forks/SerialPort -BC:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build --check-stamp-file C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build/CMakeFiles/generate.stamp
+C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort -BC:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build --check-stamp-file C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -307,18 +307,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Python38\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeCCompiler.cmake;C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeCCompiler.cmake;C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\main.cpp" />
-    <ClCompile Include="C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\src\SerialPort.cpp" />
+    <ClCompile Include="C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\main.cpp" />
+    <ClCompile Include="C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\src\SerialPort.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\ZERO_CHECK.vcxproj">
-      <Project>{F39F712D-BC07-3B8F-B9C3-77FF7F68D467}</Project>
+    <ProjectReference Include="C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\ZERO_CHECK.vcxproj">
+      <Project>{099FEF0C-1568-315B-9A76-46CD00BDACE6}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

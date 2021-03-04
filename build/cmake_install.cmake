@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/evatr/OpenBCI/Github/Forks/SerialPort
+# Install script for directory: C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

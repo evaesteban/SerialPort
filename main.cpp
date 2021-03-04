@@ -9,7 +9,7 @@
 
 using namespace std;
 
-char* portName = "\\\\.\\COM7";
+char* portName = "\\\\.\\COM18";
 
 #define MAX_DATA_LENGTH 255
 

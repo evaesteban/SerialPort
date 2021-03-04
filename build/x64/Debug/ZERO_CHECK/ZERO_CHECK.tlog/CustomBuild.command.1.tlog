@@ -1,6 +1,6 @@
-^C:\USERS\EVATR\OPENBCI\GITHUB\FORKS\SERIALPORT\BUILD\CMAKEFILES\110D2FCEE6B9578556886C9AB2F6886F\GENERATE.STAMP.RULE
+^C:\USERS\EVA\ONEDRIVE\DOCUMENTS\GITHUB\FORKS\SERIALPORT\BUILD\CMAKEFILES\19BD1E3D587AAD894C1150F751A8691A\GENERATE.STAMP.RULE
 setlocal
-C:\Python38\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/evatr/OpenBCI/Github/Forks/SerialPort -BC:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/evatr/OpenBCI/Github/Forks/SerialPort/build/SerialPort.sln
+C:\Users\eva\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort -BC:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/eva/OneDrive/Documents/Github/Forks/SerialPort/build/SerialPort.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

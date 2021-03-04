@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\main.cpp">
+    <ClCompile Include="C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\src\SerialPort.cpp">
+    <ClCompile Include="C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\src\SerialPort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{0270B083-7E4F-3BA3-A3C0-66FF93177F89}</UniqueIdentifier>
+      <UniqueIdentifier>{5235D126-05DD-3914-92E0-24910F8D8096}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

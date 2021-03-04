@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\evatr\OpenBCI\Github\Forks\SerialPort\build\CMakeFiles\110d2fcee6b9578556886c9ab2f6886f\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\eva\OneDrive\Documents\Github\Forks\SerialPort\build\CMakeFiles\19bd1e3d587aad894c1150f751a8691a\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{FC69D2AA-8F7C-3F32-B40B-3C3C2CB645CE}</UniqueIdentifier>
+      <UniqueIdentifier>{00D0E80D-1F21-3BCD-975C-BB6C078E0E24}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
